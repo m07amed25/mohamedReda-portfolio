@@ -8,12 +8,13 @@ const About = () => {
   const text = `Passionate about clean architecture
     I build scalable, high-performance solutions
     from prototype to production`;
-  const aboutText = `Obsessed with building fast, intuitive apps—from pixel-perfect React UIs to bulletproof serverless backends. Every line of code is a promise: quality that users feel.
-  When I’m not shipping:
-⚡️ Open-sourcing my latest experiment (or hacking on yours)
-🎥 Teaching devs on Twitch/YouTube—because rising tides lift all ships
-🧗 Rock climbing (problem-solving with real stakes)
-🎸 Strumming chords while CI pipelines pass (multitasking at its finest)`;
+  const aboutText = `I’m a Frontend Developer and 4th-year CS student at Mansoura University specializing in AI and Computer Vision. I bridge the gap between perception and intelligence, building high-performance web apps with React and Next.js while training deep learning models in TensorFlow and PyTorch.
+
+When I’m not shipping:
+⚡️ Architecting responsive UIs with TypeScript, Tailwind, and clean architecture.
+👁️ Engineering Computer Vision systems for image classification and object detection.
+🧗 Rock climbing (problem-solving with real stakes).
+🎸 Strumming chords while CI pipelines pass (multitasking at its finest).`;
   const imgRef = useRef(null);
   useGSAP(() => {
     gsap.to("#about", {
