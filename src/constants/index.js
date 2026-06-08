@@ -100,6 +100,27 @@ export const projects = [
       { id: 4, name: "GSAP" },
     ],
   },
+  {
+    id: 4,
+    name: "CodeCatch - AI Automated Code Review",
+    description:
+      "AI-powered code reviews that catch bugs, security issues, and maintainability problems before they reach production. Integrates directly with GitHub pull requests.",
+    href: "https://codecatch.dev/",
+    image: "/assets/projects/codecatch.jpg",
+    bgImage: "/assets/backgrounds/map.jpg",
+    frameworks: [
+      { id: 1, name: "Next.js" },
+      { id: 2, name: "Tailwind CSS" },
+      { id: 3, name: "Framer Motion" },
+      { id: 4, name: "GSAP" },
+      { id: 5, name: "tRPC v11" },
+      { id: 6, name: "Prisma ORM" },
+      { id: 7, name: "Pusher" },
+      { id: 8, name: "Inngest" },
+      { id: 9, name: "Upstash Redis" },
+      { id: 10, name: "Resend" },
+    ],
+  },
 ];
 export const socials = [
   { name: "Instagram", href: "https://www.instagram.com/m07hamed25/" },
